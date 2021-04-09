@@ -43,9 +43,10 @@ public class Tic_tac_toe extends button_variable implements ActionListener {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
 
         // TODO code application logic here
+        UIManager.setLookAndFeel("com.jtattoo.plaf.texture.TextureLookAndFeel");
         Tic_tac_toe obj = new Tic_tac_toe();
     }
 
